@@ -106,7 +106,7 @@ body {
   background-color: #ffffff;
   height:200px;
   padding-top: 20px;
-  font-size: 130%;  
+  font-size: 120%;  
   color: #FFA500;
 }
 
@@ -133,8 +133,25 @@ body {
 }
 
 .icons {
-  width: 50px;
-  height: 50px;
-  margin-right: 30px;
-  margin-bottom: 2%;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10%;
+}
+
+.info_icons{
+  width: 20%;
+  float: left;
+  margin-left: 15%;
+}
+
+.info_text{
+  width: 70%;
+}
+
+.text1 {
+  margin-bottom: 5%
+}
+
+.text2 {
+  margin-bottom: 8%;
 }
