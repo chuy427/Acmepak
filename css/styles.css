@@ -1,6 +1,15 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  background-color: #ffffff; 
+}
+
 /*-------------NavBar Changes----------------*/
 .container .navbar-brand{
   color:#FFA500;
+}
+
+.navbar {
+  border: none;
 }
 
 #logo{
@@ -9,8 +18,9 @@
 }
 
 #logo-text {
-  margin-top: -2px;
-  margin-left: -10px;
+  margin-top: 0px;
+  margin-left: -20px;
+  font-size: 22px;
 }
 
 .navbar-default .navbar-nav>.active>a,  .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-toggle .icon-bar{
@@ -38,24 +48,33 @@
 
 .ticker{
   overflow:hidden;
-  height: 61px;
+  height: 69px;
   vertical-align: baseline;
   text-align:center;
 }
 
 .ticker h1{
-  font-size: 90%;
+  font-size: 52%;
   font-weight: 700;
   margin-bottom: 0px;
   border: 1px solid white;
-  padding-top: 5px;
-  padding-bottom:5px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
 }
 
+.text_center{
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hello{
-  background-image:url('http://upload.wikimedia.org/wikipedia/commons/0/02/Surface_wooden_furniture_interior_design_texture.jpg');
+  background-image:url('http://wynfieldplantation.com/wp-content/uploads/2013/07/woodgrain.jpg');
   background-size:cover;
   background-position:center center;
   margin-top: -20px;
@@ -68,20 +87,54 @@
 
 
 /*----------------Grid Stuff--------------------*/
-
-body{
-  background-color:white;
-}
-
 .col-md-3{
   border-left:1px solid #FFA500;
+  border-right: 1px solid #FFA500; 
   border-bottom:1px solid #FFA500;
   height:200px;
+  text-align: center;
+  color: #FFA500;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col-md-6{
   border-left:1px solid #FFA500;
   border-right:1px solid #FFA500;
   border-bottom:1px solid #FFA500;
+  background-color: #ffffff;
   height:200px;
+  padding-top: 20px;
+  font-size: 130%;  
+  color: #FFA500;
+}
+
+#crate {
+  width: 120px;
+  height: 115px;
+  padding-top: 20px;
+  margin-bottom: -10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cc_text {
+  padding-left: 11%;
+  padding-right: 11%;
+  font-size: 185%;
+}
+
+.contact_info {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  margin-bottom: 2%;
 }
