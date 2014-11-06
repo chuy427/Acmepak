@@ -182,7 +182,7 @@ body {
   color: white;
   margin-top: -20px;
   text-align: center;
-  background-color: rgba(7, 41, 103, 1);
+  background-color: rgba(7, 41, 103, 0.7);
   height: 300px;
   overflow: auto;
 }
@@ -240,7 +240,7 @@ ul{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding-left: 13%;
+  padding-left: 5%;
 }
 
 .wel_par {
@@ -250,4 +250,13 @@ ul{
   top: 50%;
   transform: translateY(-50%);
   padding-right: 14%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(7, 41, 103,0), rgba(7, 41, 103,0.8), rgba(7, 41, 103,0)); 
+  background-image:    -moz-linear-gradient(left, rgba(7, 41, 103,0), rgba(7, 41, 103,0.8), rgba(7, 41, 103,0)); 
+  background-image:     -ms-linear-gradient(left, rgba(7, 41, 103,0), rgba(7, 41, 103,0.8), rgba(7, 41, 103,0)); 
+  background-image:      -o-linear-gradient(left, rgba(7, 41, 103,0), rgba(7, 41, 103,0.8), rgba(7, 41, 103,0)); 
 }
